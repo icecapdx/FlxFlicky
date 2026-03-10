@@ -1,0 +1,5 @@
+meta stuff here
+
+Data is for game data, dependencies, and fonts!
+States are for like the rooms/scenes for the game.
+Substates are exactly like that but they live inside of the current state instead of being it's own room/scene

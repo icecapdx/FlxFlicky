@@ -1,0 +1,1 @@
+dependency things here (NGio, DiscordRPC, etc etc)

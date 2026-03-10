@@ -1,0 +1,5 @@
+gameObjects here
+
+background is like if you have stuff in the bg of ur scene/game or whatever and want it to have it's own class so the playstate isn't 500+ lines
+effects are for well effects! but you can also put shaders there
+userInterface is for all ui related stuff
