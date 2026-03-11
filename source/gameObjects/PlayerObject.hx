@@ -1,4 +1,4 @@
-package source.gameObjects;
+package gameObjects;
 
 import flixel.FlxG;
 import flixel.FlxSprite;
@@ -34,9 +34,9 @@ class PlayerObject extends FlxSprite
     public var widthRadiusRolling:Int = 7; // Width Radius (Rolling) 	7 (15 pixels wide)
     public var heightRadiusRolling:Int = 14; // Height Radius (Rolling) 	14 (29 pixels tall)
     // back to our regularly scheduled programming
-    public var heightRadiusHitbox:Int = heightRadius - 3; // Height Radius (Hitbox) 	Height Radius - 3 (6 shorter) 
+    public var heightRadiusHitbox:Int = 0; // Height Radius (Hitbox) 	Height Radius - 3 (6 shorter) 
     public var widthRadiusHitbox:Int = 8; // Hitbox Width Radius 	8 (17 pixels wide)
-    public var jump_force:Int = 6.5; // jump_force 	6.5 (6 pixels and 128 subpixels)
+    public var jump_force:Float = 6.5; // jump_force 	6.5 (6 pixels and 128 subpixels)
     // CHAR SPECIFIC NOTES (adding this in case I decide to do tails and knux in the future, also this is pulled straight from the SPG):
 
     // SONIC NOTES:
