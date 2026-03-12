@@ -71,6 +71,11 @@ class SonicMath {
         return (val << 16) | ((val >> 16) & 0xFFFF);
     }
 
+    public static function sign(v:Float):Int
+    {
+        return v > 0 ? 1 : v < 0 ? -1 : 0;
+    }
+
     public static function randomNumber():Void { // random function eyed conversion from Sonic 1
         if (rand == 0) rand = 0x2A6D365A; // reset seed
         var helper = rand;
